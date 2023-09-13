@@ -1,0 +1,39 @@
+.cart {
+    padding: 30px;
+    position: fixed;
+    z-index: 99999999;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.cartShadow {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background:  rgba(30, 30, 30, 0.718);
+    z-index: 88888888;
+}
+
+.good {
+    display: flex;
+    gap: 12px;
+}
+.btn-info {
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+}
+.thumbnail product-box {
+    height: 150px;
+}
